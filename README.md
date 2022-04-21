@@ -1,4 +1,4 @@
-# Benedict Ortiz's p0
+# Coffee Shop App
 A simple coffee shop console app written in Java, with Maven, backed by a Postgres database hosted on AWS using JDBC that also utilizes JUnit testing and SLF4J logging.
 
 # What I learned
