@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!-- All configuration for your Logback loggers goes inside of this root 
+	tag. -->
+<configuration>
+
+	<!-- inside of the configuration tag, you can create several appenders. 
+		Appenders specify where you will log to and what the format of your logging 
+		messages should be. -->
+	<appender name="FILE" class="ch.qos.logback.core.FileAppender">
+		<!-- we want to specify what file we're writting to -->
+		<file>
+			coffeeShopBen.log
+		</file>
+		<!-- this encoder determines the written format of our logging messages. -->
+		<encoder>
+			<pattern>
+				%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n
+			</pattern>
+		</encoder>
+	</appender>
+	
+	<!-- We can set a level for our logging so that logging that occurs below a certain level is never written to our file -->
+	<root level ="info">
+	<appender-ref ref = "FILE"/>
+	</root>
+</configuration>
