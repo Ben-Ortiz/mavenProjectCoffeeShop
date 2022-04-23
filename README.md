@@ -11,3 +11,4 @@ A simple coffee shop console app written in Java, with Maven, backed by a Postgr
 # What I can improve on
 * JUnit: Use Mockito better and better unit tests.
 * SLF4J: Use better logging for transactions.
+* Java: Input validation, and exception handling needs to be better.
