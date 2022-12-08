@@ -1,5 +1,5 @@
 # Coffee Shop App
-A simple coffee shop console app written in Java, with Maven, backed by a Postgres database hosted on AWS using JDBC that also utilizes JUnit testing and SLF4J logging.
+A coffee shop console app written in Java, with Maven, backed by a Postgres database hosted on AWS using JDBC that also utilizes JUnit testing and SLF4J logging.
 
 # What I learned
 * Java: Using Mavan to create a java console app and how dependencies work. 
